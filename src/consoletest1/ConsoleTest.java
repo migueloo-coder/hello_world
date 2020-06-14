@@ -5,6 +5,8 @@
  */
 package consoletest1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Sammy Guergachi <sguergachi at gmail.com>
@@ -15,8 +17,13 @@ public class ConsoleTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada=new Scanner(System.in);
+        int a, b ;
+        
         System.out.println("Hello World");
+        
+        System.out.println("ingrese un numero");
+        
     }
     
 }
